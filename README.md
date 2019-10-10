@@ -1,6 +1,4 @@
-# Curso: Computación Grafica
-Repositorio del curso de computación gráfica - Ciencia de la computación 2019
-
+# Repositorio del curso de Computación Grafica - Ciencia de la computación 2019
 Profesor: 
 - Dr. Juan Carlos Gutierrez Caceres
 
@@ -8,7 +6,8 @@ Estudiante:
 - Hayde Luzmila Humpire Cutipa
 
 Requerimientos:
-- Se empieza desde una instalación de OpenGL se necesitara ejecutar los siguientes comandos para obtener lo necesario.
+- Para la instalación de OpenGL se necesitara ejecutar los siguientes comandos para obtener lo necesario.
+
 En Ubuntu:
 ```
 $ sudo apt-get update
