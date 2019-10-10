@@ -5,11 +5,10 @@ Profesor:
 - Dr. Juan Carlos Gutierrez Caceres
 
 Estudiante:
-- Hayde Humpire Cutipa
+- Hayde Luzmila Humpire Cutipa
 
 Requerimientos:
 - Se empieza desde una instalación de OpenGL se necesitara ejecutar los siguientes comandos para obtener lo necesario.
-
 En Ubuntu:
 ```
 $ sudo apt-get update
@@ -28,7 +27,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 # 2.Recta-2D-3D
@@ -43,7 +41,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 # 3.Polígono
@@ -58,7 +55,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 # 4.Traslación, Rotación y Escalar 2D
@@ -73,7 +69,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 # 5.Pintar
@@ -89,14 +84,11 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 
 # Resultado Final: Animacion de todos los resultados 
-
 Ejecución del codigo y prueba de funcionalidad:
-
 ![](ejecucion_video.gif)
 
 
