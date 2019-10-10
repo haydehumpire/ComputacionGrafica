@@ -1,4 +1,4 @@
-# Repositorio del curso de Computación Grafica - Ciencia de la computación 2019
+# Repositorio del curso de Computación Grafica - CS 2019
 Profesor: 
 - Dr. Juan Carlos Gutierrez Caceres
 
