@@ -1,7 +1,9 @@
-# Computación-Grafica
+# Curso: Computación Grafica
 Repositorio del curso de computación gráfica - Ciencia de la computación 2019
 
-Curso: Computación gráfica
+Profesor: 
+- Dr. Juan Carlos Gutierrez Caceres
+
 Estudiante:
 - Hayde Humpire Cutipa
 
@@ -59,7 +61,7 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
-# 4.Traslación, Rotación y Escalar
+# 4.Traslación, Rotación y Escalar 2D
 El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
