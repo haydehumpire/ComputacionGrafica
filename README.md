@@ -6,9 +6,7 @@ Estudiante:
 - Hayde Luzmila Humpire Cutipa
 
 Requerimientos:
-- Para la instalación de OpenGL se necesitara ejecutar los siguientes comandos para obtener lo necesario.
-
-En Ubuntu:
+- OpenGL (ubuntu)
 ```
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
