@@ -6,9 +6,9 @@ Estudiante:
 - Hayde Humpire Cutipa
 
 Requerimientos:
-i se empieza desde una instalación limpia de python se necesitara ejecutar los siguientes comandos para obtener lo necesario.
+- Se empieza desde una instalación de OpenGL se necesitara ejecutar los siguientes comandos para obtener lo necesario.
 
-Ubuntu:
+En Ubuntu:
 ```
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
@@ -91,11 +91,11 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Resultado Final: Animacion de todos los resultados 
 
 Ejecución del codigo y prueba de funcionalidad:
 
 ![](ejecucion_video.gif)
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
