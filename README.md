@@ -14,19 +14,19 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 # 1.2 Resultado de la grafica de la Recta-3D
 ![bd_disponibles](Imagenes/Linea3D.png)
 
-# 2.Resultado de la grafica de la Circunferencia
+# 2. Resultado de la grafica de la Circunferencia
 ![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
 
-# 3.Resultado de la grafica del Polígono
+# 3. Resultado de la grafica del Polígono
 ![bd_disponibles](Imagenes/PoligonoMiddlePoint.png)
 
-# 4.1 Resultado de la grafica de la Traslación 3D
+# 4.1 Resultado de la grafica de la Traslación-3D
 ![](Imagenes/Traslacion.gif)
 
-# 4.2 Resultado de la grafica de la Rotación 3D
+# 4.2 Resultado de la grafica de la Rotación-3D
 ![](Imagenes/Rotacion.gif)
 
-# 4.3 Resultado de la grafica del Escalar 3D
+# 4.3 Resultado de la grafica del Escalar-3D
 ![](Imagenes/Escalar.gif)
 
 # 5. Resultado del Pintado
