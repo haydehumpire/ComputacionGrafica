@@ -1,9 +1,6 @@
 # Repositorio de Computación Grafica - CS 2019
-Profesor: 
-- Dr. Juan Carlos Gutierrez Caceres
-
-Estudiante:
-- Hayde Luzmila Humpire Cutipa
+- Profesor: Dr. Juan Carlos Gutierrez Caceres
+- Estudiante: Hayde Luzmila Humpire Cutipa
 
 Requerimientos:
 - OpenGL (ubuntu)
