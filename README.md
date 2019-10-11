@@ -18,16 +18,7 @@ algoritmo del punto medio para generación de círculos. Al procedimiento circle
 el valor del radio del círculo y las coordenadas del centro del círculo. Entonces, se calcula una posición de
 píxel dentro del primer octante de la trayectoria circular y se pasa dicha posición al procedimiento
 circlePlotPoints. 
-```
-for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
-    if not artist in userRatings:
-        if neighborRatings[artist] >= self.umbral or self.umbral==0: #Consideracion de umbral
-            if artist not in recommendations:
-                recommendations[artist] = neighborRatings[artist]
-            else:
-                recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
-```
 ![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
 
 # 2.A Recta-2D
