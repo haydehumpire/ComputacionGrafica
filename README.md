@@ -8,29 +8,28 @@ Requerimientos:
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
-
-# 1.Circunferencia
-![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
-
-# 2.1 Recta-2D
+# 1.1 Resultado de la grafica de la Recta-2D
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
 
-# 2.2 Recta-3D
+# 1.2 Resultado de la grafica de la Recta-3D
 ![bd_disponibles](Imagenes/Linea3D.png)
 
-# 3.Polígono
+# 2.Resultado de la grafica de la Circunferencia
+![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
+
+# 3.Resultado de la grafica del Polígono
 ![bd_disponibles](Imagenes/PoligonoMiddlePoint.png)
 
-# 4.1 Traslación
+# 4.1 Resultado de la grafica de la Traslación 3D
 ![](Imagenes/Traslacion.gif)
 
-# 4.2 Rotación 
+# 4.2 Resultado de la grafica de la Rotación 3D
 ![](Imagenes/Rotacion.gif)
 
-# 4.3 Escalar 
+# 4.3 Resultado de la grafica del Escalar 3D
 ![](Imagenes/Escalar.gif)
 
-# 5.Pintar
+# 5. Resultado del Pintado
 ![bd_disponibles](Imagenes/PintadoPoligono.png)
 
 
