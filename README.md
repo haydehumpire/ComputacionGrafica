@@ -17,9 +17,7 @@ El siguiente código ilustra los procedimientos que podrían emplearse para impl
 algoritmo del punto medio para generación de círculos. Al procedimiento circleMidpoint hay que pasarle
 el valor del radio del círculo y las coordenadas del centro del círculo. Entonces, se calcula una posición de
 píxel dentro del primer octante de la trayectoria circular y se pasa dicha posición al procedimiento
-circlePlotPoints . Este procedimiento almacena el color correspondiente al círculo en el búfer de imagen
-para todas las posiciones simétricas dentro del círculo, efectuando llamadas repetidas a las rutina setPixel ,
-que está implementada con las funciones de dibujo de puntos de OpenGL.
+circlePlotPoints. 
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
     if not artist in userRatings:
@@ -30,10 +28,9 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-![bd_disponibles](Imagenes/bd_disponibles.PNG)
+![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
 
 # 2.A Recta-2D
-El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
     if not artist in userRatings:
@@ -47,7 +44,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
 
 # 2.B Recta-3D
-El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
     if not artist in userRatings:
@@ -58,11 +54,10 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-![bd_disponibles](Imagenes/bd_disponibles.PNG)
+![bd_disponibles](Imagenes/Linea3D.png)
 
 
 # 3.Polígono
-El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
     if not artist in userRatings:
@@ -73,7 +68,7 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-![bd_disponibles](Imagenes/bd_disponibles.PNG)
+![bd_disponibles](Imagenes/PoligonoMiddlePoint.png)
 
 # 4.Traslación, Rotación y Escalar 2D
 El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
@@ -90,8 +85,6 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
 # 5.Pintar
-El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
-
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
     if not artist in userRatings:
@@ -102,11 +95,10 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
                 recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
 
 ```
-![bd_disponibles](Imagenes/bd_disponibles.PNG)
+![bd_disponibles](Imagenes/PintadoPoligono.png)
 
 
 # Resultado Final: Animacion de todos los resultados 
-Ejecución del codigo y prueba de funcionalidad:
 ![](ejecucion_video.gif)
 
 
