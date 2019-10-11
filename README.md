@@ -25,13 +25,13 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ![bd_disponibles](Imagenes/PoligonoMiddlePoint.png)
 
 # 4.1 Animacion de Traslación
-![](ejecucion_video.gif)
+![](Imagenes/Traslacion.gif)
 
 # 4.2 Animacion de Rotación 
-![](ejecucion_video.gif)
+![](Imagenes/Rotacion.gif)
 
 # 4.3 Animacion de Escalar 
-![](ejecucion_video.gif)
+![](Imagenes/Escalar.gif)
 
 # 5.Pintar
 ![bd_disponibles](Imagenes/PintadoPoligono.png)
