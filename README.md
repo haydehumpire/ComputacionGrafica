@@ -32,7 +32,21 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 ```
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
 
-# 2.Recta-2D-3D
+# 2.A Recta-2D
+El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
+```
+for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
+    if not artist in userRatings:
+        if neighborRatings[artist] >= self.umbral or self.umbral==0: #Consideracion de umbral
+            if artist not in recommendations:
+                recommendations[artist] = neighborRatings[artist]
+            else:
+                recommendations[artist] = (recommendations[artist] + neighborRatings[artist])/2 #Obtener un ponderado
+
+```
+![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
+
+# 2.B Recta-3D
 El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
 ```
 for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y el usuario no hizo
@@ -45,6 +59,7 @@ for artist in neighborRatings: #buscar las calificaciones que el vecino hizo y e
 
 ```
 ![bd_disponibles](Imagenes/bd_disponibles.PNG)
+
 
 # 3.Polígono
 El sistema de recomendación esta preparado para trabajar con 4 bases de datos: Books de 1M, Movielens de 10M, Movielens de 20M y Movielens de 27M.
