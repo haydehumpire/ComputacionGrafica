@@ -32,11 +32,11 @@ void Mostrar(){
 void Mover(unsigned char key, int x, int y){ // Dos casos: Usando Vectores y librerias de OpenGL
    switch(key) {
 
-    /*vector<int> traslacion(vector<int> org,vector<int> traslado){
+    /*vector<int> traslacion(vector<int> org,vector<int> trasladar){
         vector<int>res;
         for (size_t i = 0; i < org.size(); i+=2)   {
-            res.push_back(org[i]+traslado[0]);
-            res.push_back(org[i+1]+traslado[1]);
+            res.push_back(org[i]+trasladar[0]);
+            res.push_back(org[i+1]+trasladar[1]);
     }
     return res;
     }*/
@@ -112,7 +112,7 @@ int main( int argc, char **argv){
     glutInitDisplayMode( GLUT_RGBA | GLUT_DOUBLE );
     glutInitWindowSize( 350, 350 );
     glutInitWindowPosition(0, 0);
-    glutCreateWindow( "Rotacion, Escalar y Traslacion" );
+    glutCreateWindow( "Linea 3D - Rotacion, Escalar y Traslacion" );
     glutKeyboardFunc(Mover);
     glutDisplayFunc( Mostrar );
     glutMainLoop();
