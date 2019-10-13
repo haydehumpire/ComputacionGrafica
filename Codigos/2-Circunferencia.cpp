@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-void displayMe(void){
+void Mostrar_Circunferencia(void){
     int lados=80;
     GLfloat radio = 0.8f;
     GLfloat DosPi = 2.0f*M_PI;
@@ -14,8 +14,8 @@ void displayMe(void){
     glBegin(GL_LINES);
 
     for(int i = 0; i <=lados; i++) {
-        glVertex2f((radio * cos(i *  DosPi / lados)), (radio* sin(i * DosPi / lados)));
-        glVertex2f((radio * cos((i+1) *  DosPi / lados)), (radio* sin((i+1) * DosPi / lados)));
+        glVertex2f((radio * cos(i *  DosPi/lados)), (radio* sin(i * DosPi/lados)));
+        glVertex2f((radio * cos((i+1) *  DosPi/lados)), (radio* sin((i+1) * DosPi/lados)));
     }
 
     glEnd();
@@ -28,7 +28,7 @@ int main(int argc, char** argv){
     glutInitWindowSize(350, 350);
     glutInitWindowPosition(100, 100);
     glutCreateWindow("Circunferencia usando Middle Point");
-    glutDisplayFunc(displayMe);
+    glutDisplayFunc(Mostrar_Circunferencia);
     glutMainLoop();
     return 0;
 }
