@@ -1,37 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <GL/glut.h>
-#include <math.h>
+#include <cmath>
 #include <iostream>
 using namespace std;
 
-void Poligono(){
-	glClear(GL_COLOR_BUFFER_BIT);
-	glColor3f(1,1,1);
-	glLoadIdentity();
+void Mostrar_Circunferencia(void){
+    int lados=8;
+    GLfloat radio = 0.8f;
+    GLfloat DosPi = 2.0f*M_PI;
 
-	double radio = 0.8;
-	int lados = 8;
+    glClear(GL_COLOR_BUFFER_BIT);
+    glBegin(GL_LINES);
 
-	glBegin(GL_LINES);
-	for(int i=0; i < lados; i++)
-	{
-		glVertex2f(cos(i*2*M_PI/lados)*radio, sin(i*2*M_PI/lados)*radio);
-		glVertex2f(cos((i+1) * 2*M_PI/lados)*radio, sin((i+1) * 2*M_PI/lados)*radio);
-	}
-	glEnd();
-	glFlush();
+    for(int i = 0; i <=lados; i++) {
+        glVertex2f((radio * cos(i *  DosPi/lados)), (radio* sin(i * DosPi/lados)));
+        glVertex2f((radio * cos((i+1) *  DosPi/lados)), (radio* sin((i+1) * DosPi/lados)));
+    }
+    glEnd();
+    glFlush();
 }
 
-
 int main(int argc, char** argv){
-	glutInit(&argc,argv);
-	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
-	glutInitWindowSize(350,350);
-	glutInitWindowPosition(100,100);
-	glutCreateWindow("Poligono usando Middle Point");
-	glClearColor(0,0,0,0);
-	glutDisplayFunc(Poligono);
-	glutMainLoop();
-	return 0;
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_SINGLE);
+    glutInitWindowSize(350, 350);
+    glutInitWindowPosition(100, 100);
+    glutCreateWindow("Circunferencia usando Middle Point");
+    glutDisplayFunc(Mostrar_Circunferencia);
+    glutMainLoop();
+    return 0;
 }
