@@ -2,7 +2,6 @@
 #include <GL/glut.h>
 
 GLfloat x1,y1,x2,y2,x3,y3,x4,y4;
-
 void Deteccion_Borde(GLfloat x1,GLfloat y1,GLfloat x2,GLfloat y2,int *le,int *re){
     float mx,x,temp;
     int i;
