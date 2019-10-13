@@ -17,13 +17,6 @@ void init(void){
     glClearDepth(1.0f);
 }
 
-int absoluto(int derivadas){
-    if (derivadas<0){
-        return derivadas*-1;
-    }
-    return derivadas;
-}
-
 void Linea_3D(float x1, float y1, float z1, float x2,float y2,float z2){
     glBegin(GL_POINTS);
     float m,x,y,z,dy,dx;
@@ -82,7 +75,6 @@ void displey(void){
     glutSwapBuffers();
 }
 
-
 void Redimensionar(int w, int h){
 glMatrixMode(GL_PROJECTION);
 glLoadIdentity();
@@ -90,24 +82,6 @@ glViewport(0, 0, w, h);
 gluPerspective(45.0f, 1.0f * w/h, 1.0f, 100.0f);
 glMatrixMode(GL_MODELVIEW);
 glLoadIdentity();
-}
-
-void Mouse(int button, int state, int x, int y){
-    if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)  {
-        mouse_abajo = true;
-        xd = x - yr;
-        yd = -y + xr;
-    }
-    else
-        mouse_abajo = false;
-}
-
-void Movimiento_Mouse(int x, int y){
-    if (mouse_abajo)  {
-        yr = x - xd;
-        xr = y + yd;
-        glutPostRedisplay();
-    }
 }
 
 void Re_modelar(int x, int y){
