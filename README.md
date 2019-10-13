@@ -12,7 +12,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
 
 # 1.2 Resultado de la grafica de la Recta-3D
-![bd_disponibles](Imagenes/Linea3D.png)
+![bd_disponibles](Imagenes/Linea_3D.png)
 
 # 2. Resultado de la grafica de la Circunferencia
 ![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
