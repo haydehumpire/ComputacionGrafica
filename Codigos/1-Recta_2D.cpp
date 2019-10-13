@@ -13,7 +13,6 @@ void Linea_Punto_Medio(){
     float y1 = -0.9;
     float x2 = 0.9;
     float y2 = 0.9;
-
     float dx, dy, incE, incNE, d, x,y;
     dx = x2 - x1;
     dy = y2 - y1;
