@@ -15,7 +15,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ![bd_disponibles](Imagenes/Linea_3D.png)
 
 # 2. Resultado de la grafica de la Circunferencia
-![bd_disponibles](Imagenes/CircunferenciaMiddlePoint.png)
+![bd_disponibles](Imagenes/CircunferenciaPuntoMedio.png)
 
 # 3. Resultado de la grafica del Polígono
 ![bd_disponibles](Imagenes/PoligonoMiddlePoint.png)
