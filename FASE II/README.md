@@ -1,4 +1,5 @@
 # Repositorio de Computación Grafica - CS 2019
+Fase I
 - Profesor: Dr. Juan Carlos Gutierrez Caceres
 - Estudiante: Hayde Luzmila Humpire Cutipa
 
