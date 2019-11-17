@@ -1,16 +1,26 @@
 # Repositorio de Computación Grafica Cs 2019
 Fase II 
 
-Viendo la escena desde otro punto de vista: CÁMARAS
+- Profesor: 
+Dr. Juan Carlos Gutierrez Caceres
+
+- Estudiante: 
+Hayde Luzmila Humpire Cutipa
+
+## Viendo la escena desde otro punto de vista: CÁMARAS
 - Mover la cámara con el mouse
 - Cambios de perspectiva de la cámara (ortogonal a perspectiva) 
 - Mover el objeto en la proyección (con las teclas)
 
-Requerimientos:
+## Requerimientos:
 - OpenGL (ubuntu)
 ```
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
+```
+## Para compilar: 
+```
+g++ main.cpp Camara.cpp Vector_tools.cpp primitivas.cpp -o out  -lGL -lGLU -lglut
 ```
 # 1. Mover la cámara con el mouse
 ```
