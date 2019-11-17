@@ -13,9 +13,9 @@ $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 # 1. Mover la cámara con el mouse
-## Grafica con el movimiento del mouse - (con el cubo)
+## Gráfica con el movimiento del mouse - (con el cubo)
 ![](Imagenes/Movimiento_Mouse.gif)
-## Grafica dando click - (con el cubo)
+## Gráfica dando click - (con el cubo)
 ![](Imagenes/Movimiento_Click.gif)
 
 ```
@@ -25,13 +25,13 @@ glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 ```
 
 # 2. Mover el objeto en la proyección (con las teclas)
-## Grafica de proyección con teclas
+## Gráfica de proyección con teclas
 ![](Imagenes/Movimiento_Teclas.gif)
 
 # 3. Programa (con tecla) que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
-## Grafica Ortogonal
-## Grafica Perpectiva
+## Gráfica Ortogonal
+## Gráfica Perpectiva
 
 # 4. Otros modos de movimiento de cámara como son el MODO PAN o el MODO TRÍPODE
-## Grafica Modo PAN
-## Grafica MODO TRÍPODE
+## Gráfica Modo PAN
+## Gráfica MODO TRÍPODE
