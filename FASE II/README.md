@@ -13,10 +13,11 @@ $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 # 1. Mover la cámara con el mouse
+
 ```
 GlutMouseFunc(mouse); //Pulsado de Botones
-    glutMotionFunc(NULL); //Movimiento con Botones pulsados
-    glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
+glutMotionFunc(NULL); //Movimiento con Botones pulsados
+glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 ```
 
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
