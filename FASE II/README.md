@@ -7,17 +7,18 @@ Dr. Juan Carlos Gutierrez Caceres
 - Estudiante: 
 Hayde Luzmila Humpire Cutipa
 
-## Viendo la escena desde otro punto de vista: CÁMARAS
-- Mover la cámara con el mouse
-- Cambios de perspectiva de la cámara (ortogonal a perspectiva) 
-- Mover el objeto en la proyección (con las teclas)
-
 ## Requerimientos:
 - OpenGL (ubuntu)
 ```
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
+## Viendo la escena desde otro punto de vista: CÁMARAS
+- Mover la cámara con el mouse
+- Cambios de perspectiva de la cámara (ortogonal a perspectiva) 
+- Mover el objeto en la proyección (con las teclas)
+- Otros modos de movimiento de cámara como son el MODO PAN o el MODO TRÍPODE
+
 ## Para compilar: 
 ```
 g++ main.cpp Camara.cpp Vector_tools.cpp primitivas.cpp -o out  -lGL -lGLU -lglut
