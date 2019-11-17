@@ -34,16 +34,16 @@ glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 ![](Imagenes/Movimiento_Mouse.gif)
 ![](Imagenes/Tortuga_Mouse.gif)
 
-## Gráfica dando click - (con el cubo) - (con el cubo y la tortuga)
+## Gráfica dando click - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Click.gif)
 ![](Imagenes/Tortuga_Click.gif )
 
-# 2. Mover el objeto en la proyección (con las teclas) 
+# 2. Mover el objeto en la proyección con las teclas
 ## Gráfica de proyección con teclas - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Teclas.gif)
 ![](Imagenes/Tortuga_Tecla.gif)
 
-# 3. Programa (con tecla) que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
+# 3. Programa con tecla que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
 ## Gráfica Ortogonal - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_ortogonal.gif)
 ![](Imagenes/Tortuga_Ortogonal.gif)
