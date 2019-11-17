@@ -2,9 +2,9 @@
 Fase II 
 
 Viendo la escena desde otro punto de vista: CÁMARAS
-- Mover la camara con el mouse
-- Cambios de perspectiva de la camara (ortogonal a perspectiva) 
-- Mover el objeto en la proyeccion (con las teclas)
+- Mover la cámara con el mouse
+- Cambios de perspectiva de la cámara (ortogonal a perspectiva) 
+- Mover el objeto en la proyección (con las teclas)
 
 Requerimientos:
 - OpenGL (ubuntu)
@@ -15,7 +15,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 # 1. Mover la cámara con el mouse
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
 
-# 2. Cambios de perspectiva de la camara (ortogonal a perspectiva) 
+# 2. Cambios de perspectiva de la cámara (ortogonal a perspectiva) 
 ![](Imagenes/Escalar.gif)
 
 # 3. Mover el objeto en la proyección (con las teclas)
