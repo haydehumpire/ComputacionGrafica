@@ -1,7 +1,10 @@
 # Practica 04 - Computación Grafica Cs 2019
 Fase II 
 
-VIENDO LA ESCENA DESDE OTRO PUNTO DE VISTA: CÁMARAS
+Viendo la escena desde otro punto de vista: CÁMARAS
+- Mover la camara con el mouse
+- Cambios de perspectiva de la camara (ortogonal a perspectiva) 
+- Mover el objeto en la proyeccion (con las teclas)
 
 Requerimientos:
 - OpenGL (ubuntu)
