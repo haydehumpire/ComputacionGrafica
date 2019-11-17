@@ -29,7 +29,6 @@ GlutMouseFunc(mouse); //Pulsado de Botones
 glutMotionFunc(NULL); //Movimiento con Botones pulsados
 glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 ```
-
 ## Gráfica con el movimiento del mouse - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Mouse.gif)
 ![](Imagenes/Tortuga_Mouse.gif)
