@@ -65,7 +65,6 @@ void Modo_Pan(int x, int y){
 }
 ```
 ![bd_disponibles](Imagenes/Modo_PanCubo.png)
-![bd_disponibles](Imagenes/Modo_Pan.png)
 ## Gráfica MODO TRÍPODE
 ```
 void Modo_Tripode(int x, int y){
@@ -80,4 +79,3 @@ void Modo_Tripode(int x, int y){
 }
 ```
 ![bd_disponibles](Imagenes/Modo_TripodeCubo.png)
-![bd_disponibles](Imagenes/Modo_Tripode.png)
