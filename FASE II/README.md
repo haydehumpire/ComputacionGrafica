@@ -1,5 +1,6 @@
-# Practica 04 de Computación Grafica 
-Fase II
+# Practica 04 - Computación Grafica Cs 2019
+Fase II 
+
 VIENDO LA ESCENA DESDE OTRO PUNTO DE VISTA: CÁMARAS
 
 Requerimientos:
