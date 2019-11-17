@@ -16,7 +16,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ## Grafica con el movimiento del mouse - (con el cubo)
 ![](Imagenes/Movimiento_Mouse.gif)
 ## Grafica dando click - (con el cubo)
-![](Movimiento_Click.gif)
+![](Imagenes/Movimiento_Click.gif)
 
 ```
 GlutMouseFunc(mouse); //Pulsado de Botones
@@ -26,7 +26,7 @@ glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 
 # 2. Mover el objeto en la proyección (con las teclas)
 ## Grafica de proyección con teclas
-![](Movimiento_Teclas.gif)
+![](Imagenes/Movimiento_Teclas.gif)
 
 # 3. Programa (con tecla) que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
 ## Grafica Ortogonal
