@@ -7,13 +7,13 @@ Requerimientos:
 $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
-# 1. Resultado de la grafica de la Recta-2D
+# 1. Mover la camara con el mouse
 ![bd_disponibles](Imagenes/LineaMiddlePoint2D.png)
 
-# 2. Resultado de la grafica del Escalar
+# 2. Cambios de perspectiva de la camara (ortogonal a perspectiva) 
 ![](Imagenes/Escalar.gif)
 
-
-
+# 3. Mover el objeto en la proyeccion (con las teclas)
+![](Imagenes/Escalar.gif)
 
 
