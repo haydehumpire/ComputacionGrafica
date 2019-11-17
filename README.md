@@ -7,6 +7,6 @@ Dr. Juan Carlos Gutierrez Caceres
 - Estudiante: 
 Hayde Luzmila Humpire Cutipa
 
- ## Los ejercicios de la Fase II estan en la carpeta Fase II
+ ## Los ejercicios de la segunda fase estan en la Carpeta Fase II
 
 
