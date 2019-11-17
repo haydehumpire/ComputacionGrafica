@@ -1,5 +1,6 @@
-# Repositorio de Computación Grafica - CS 2019
+# Practica 04 de Computación Grafica 
 Fase II
+VIENDO LA ESCENA DESDE OTRO PUNTO DE VISTA: CÁMARAS
 
 Requerimientos:
 - OpenGL (ubuntu)
