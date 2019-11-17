@@ -30,7 +30,9 @@ glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 
 # 3. Programa (con tecla) que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
 ## Gráfica Ortogonal
+![](Imagenes/Movimiento_ortogonal.gif)
 ## Gráfica Perpectiva
+![](Imagenes/Movimiento_perpectiva.gif)
 
 # 4. Otros modos de movimiento de cámara como son el MODO PAN o el MODO TRÍPODE
 ## Gráfica Modo PAN
