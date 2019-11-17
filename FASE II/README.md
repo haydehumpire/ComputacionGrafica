@@ -13,11 +13,11 @@ $ sudo apt-get update
 $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ```
 # 1. Mover la cámara con el mouse
-## Gráfica con el movimiento del mouse - (con el cubo)
+## Gráfica con el movimiento del mouse - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Mouse.gif)
 ![](Imagenes/Tortuga_Mouse.gif)
 
-## Gráfica dando click - (con el cubo)
+## Gráfica dando click - (con el cubo) - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Click.gif)
 ![](Imagenes/Tortuga_Click.gif )
 
@@ -27,17 +27,17 @@ glutMotionFunc(NULL); //Movimiento con Botones pulsados
 glutPassiveMotionFunc(MouseMotion); //Movimientos sin Botones pulsados
 ```
 
-# 2. Mover el objeto en la proyección (con las teclas)
-## Gráfica de proyección con teclas
+# 2. Mover el objeto en la proyección (con las teclas) 
+## Gráfica de proyección con teclas - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Teclas.gif)
 ![](Imagenes/Tortuga_Tecla.gif)
 
 # 3. Programa (con tecla) que permite cambiar el modo de proyección entre ORTOGONAL y PERSPECTIVA
-## Gráfica Ortogonal
+## Gráfica Ortogonal - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_ortogonal.gif)
 ![](Imagenes/Tortuga_Ortogonal.gif)
 
-## Gráfica Perpectiva
+## Gráfica Perpectiva - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_perpectiva.gif)
 ![](Imagenes/Tortuga_Perpectiva.gif)
 
