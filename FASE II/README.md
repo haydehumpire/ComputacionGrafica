@@ -17,6 +17,7 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 ![](Imagenes/Movimiento_Mouse.gif)
 ## Grafica dando click - (con el cubo)
 ![](Movimiento_Click.gif)
+
 ```
 GlutMouseFunc(mouse); //Pulsado de Botones
 glutMotionFunc(NULL); //Movimiento con Botones pulsados
