@@ -1,4 +1,4 @@
-# Practica 04 - Computación Grafica Cs 2019
+# Repositorio de Computación Grafica Cs 2019
 Fase II 
 
 Viendo la escena desde otro punto de vista: CÁMARAS
