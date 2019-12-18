@@ -1,5 +1,5 @@
 # Repositorio de Computación Grafica Cs 2019
-Fase II 
+Fase III 
 
 - Profesor: 
 Dr. Juan Carlos Gutierrez Caceres
@@ -14,7 +14,7 @@ Hayde Luzmila Humpire Cutipa
 $ sudo apt-get update
 $ sudo apt install python3-opencv
 ```
-## Viendo la escena desde otro punto de vista: CÁMARAS
+## Trabajos para la Tercera Fase
 - Curvas Beizer
 - Quad Tree
 
@@ -27,7 +27,7 @@ g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL
 ![](Imagenes/ConTresPuntos.gif )
 
 ## Curvas Beizer con cuatro puntos
-![](Imagenes/ConCautroPuntos.gif)
+![](Imagenes/ConCuatroPuntos.gif)
 
 ## Gráfica dando click - (con el cubo y la tortuga)
 ![](Imagenes/Movimiento_Click.gif)
