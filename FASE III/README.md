@@ -27,5 +27,5 @@ g++ main.cpp -o ejecutable -lglut -lGLU -lGL
 ![bd_disponibles](Imagenes/quad2.png)
 ![bd_disponibles](Imagenes/quad3.png)
 ![bd_disponibles](Imagenes/quad5.png)
-![bd_disponibles](Imagenes/quad4.png)
+![bd_disponibles](Imagenes/quead4.png)
 
