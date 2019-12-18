@@ -9,7 +9,7 @@ Hayde Luzmila Humpire Cutipa
 ### Los ejercicios en la Carpeta Fase III
 
 
-# El Proyecto en la carpeta Proyecto Final
+# El Proyecto Final en la carpeta Proyecto Final
 ## Integrantes:
 - Jair Huamán Canqui
 - Jhunior Chavez Cruz
