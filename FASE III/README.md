@@ -24,6 +24,8 @@ g++ main.cpp -o ejecutable -lglut -lGLU -lGL
 
 # 2. Quad Tree
 ## Gráfica del Quad Tree
-![bd_disponibles](Imagenes/quad1.png)
+![bd_disponibles](Imagenes/quad2.png)
 ![bd_disponibles](Imagenes/quad3.png)
 ![bd_disponibles](Imagenes/quad5.png)
+![bd_disponibles](Imagenes/quad4.png)
+
