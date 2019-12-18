@@ -10,17 +10,14 @@ Hayde Luzmila Humpire Cutipa
 ## Requerimientos:
 - OpenGL (ubuntu)
 - OpenCV (ubuntu)
-```
-$ sudo apt-get update
-$ sudo apt install python3-opencv
-```
+
 ## Trabajos para la Tercera Fase
 - Curva de Bézier
 - Quad Tree
 
 ## Para compilar: 
 ```
-g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL
+g++ main.cpp -o ejecutable -lglut -lGLU -lGL
 ```
 # 1. Curva de Bézier
 ## Gráfica de la Curva de Bézier con tres puntos
