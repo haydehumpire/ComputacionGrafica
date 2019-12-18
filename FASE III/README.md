@@ -15,23 +15,20 @@ $ sudo apt-get update
 $ sudo apt install python3-opencv
 ```
 ## Trabajos para la Tercera Fase
-- Curvas Beizer
+- Curva de Bézier
 - Quad Tree
 
 ## Para compilar: 
 ```
 g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL
 ```
-# 1. Curvas Beizer
-## Curvas Beizer con tres puntos
+# 1. Curva de Bézier
+## Gráfica de la Curva de Bézier con tres puntos
 ![](Imagenes/ConTresPuntos.gif )
 
-## Curvas Beizer con cuatro puntos
+## Gráfica de la Curva de Bézier con cuatro puntos
 ![](Imagenes/ConCuatroPuntos.gif)
 
-## Gráfica dando click - (con el cubo y la tortuga)
-![](Imagenes/Movimiento_Click.gif)
-
 # 2. Quad Tree
-## Gráfica de proyección con teclas - (con el cubo y la tortuga)
+## Gráfica del Quad Tree
 ![](Imagenes/Movimiento_Teclas.gif)
