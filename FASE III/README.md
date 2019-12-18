@@ -7,10 +7,6 @@ Dr. Juan Carlos Gutierrez Caceres
 - Estudiante: 
 Hayde Luzmila Humpire Cutipa
 
-## Requerimientos:
-- OpenGL (ubuntu)
-- OpenCV (ubuntu)
-
 ## Trabajos para la Tercera Fase
 - Curva de Bézier
 - Quad Tree
