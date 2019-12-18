@@ -6,7 +6,8 @@ Dr. Juan Carlos Gutierrez Caceres
 
 - Estudiante: 
 Hayde Luzmila Humpire Cutipa
-Requerimientos:
+
+## Requerimientos:
 - OpenGL (ubuntu)
 ```
 $ sudo apt-get update
