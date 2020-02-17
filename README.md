@@ -1,12 +1,11 @@
 # Repositorio de Computación Gráfica
  Ciencia de la Computación - UNSA 2019
  
-- Profesor: 
+### Profesor: 
 Dr. Juan Carlos Gutierrez Caceres
 
-- Estudiante: 
+### Estudiante: 
 Hayde Luzmila Humpire Cutipa
-### Los ejercicios en la Carpeta Fase III
 
 
 
